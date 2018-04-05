@@ -1,0 +1,266 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw"
+    version="1.1" baseProfile="full">
+    <g>
+        <g latexdraw:type="rectangle" id="id1368420429">
+            <rect x="559.3333333333335" y="265.7058823529412"
+                width="172.9019607843137" height="92.11764705882354"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id709083603">
+            <rect x="856.6666666666665" y="265.7058823529412"
+                width="172.90196078431404" height="92.11764705882354"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1120274522">
+            <rect x="559.3333333333334" y="505.7058823529412"
+                width="172.90196078431381" height="92.11764705882354"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id160731107" fill="black" latexdraw:position="bl">
+            <text x="622.5551453908284" y="324.0146942138672">{\huge SPI}</text>
+        </g>
+        <g latexdraw:type="text" id="id1448202595" fill="black" latexdraw:position="bl">
+            <text x="921.5145203908282" y="326.5146942138672">{\huge $\mathrm{I^{2}C}$}</text>
+        </g>
+        <g latexdraw:type="text" id="id62609354" fill="black" latexdraw:position="bl">
+            <text x="616.0509787241617" y="564.0146942138672">{\huge TIM}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id300085568">
+            <rect x="18.64705882352945" y="201.00000000000006"
+                width="259.1764705882354" height="92.11764705882337"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id868686758" fill="black" latexdraw:position="bl">
+            <text x="33.48528480529785" y="265.30882263183594">\begin{tabular}{c} {\large Enkoder inkrementalny} \\  {\large AEAT-6012-A06}  \end{tabular}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id150904464">
+            <rect x="18.64705882352945" y="521.0"
+                width="199.17647058823542" height="92.11764705882342"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1186113651" fill="black" latexdraw:position="bl">
+            <text x="32.48529243469238" y="585.308837890625">\begin{tabular}{c} {\large Silnik krokowy} \\  {\large NEMA17}  \end{tabular}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id2025535631">
+            <rect x="298.64705882352945" y="601.0"
+                width="179.17647058823542" height="112.11764705882342"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id2022529259" fill="black" latexdraw:position="bl">
+            <text x="292.3642795643908" y="679.1869659423828">\begin{tabular}{c} {\large Sterownik silnik\'ow} \\  {\large TB6560}  \end{tabular}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id1673547931">
+            <rect x="829.3235204360064" y="21.0"
+                width="219.17647058823536" height="92.11764705882342"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1745068604" fill="black" latexdraw:position="bl">
+            <text x="829.4117673986099" y="76.30882263183594">{\large Wyświetlacz segmentowy}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id2037897364">
+            <rect x="18.64705882352945" y="301.00000000000006"
+                width="259.17647058823536" height="92.11764705882337"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1475434325" fill="black" latexdraw:position="bl">
+            <text x="33.48528480529785" y="365.30882263183594">\begin{tabular}{c} {\large Enkoder inkrementalny} \\  {\large AEAT-6012-A06}  \end{tabular}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id48684531">
+            <rect x="18.64705882352945" y="401.00000000000006"
+                width="259.17647058823536" height="92.11764705882337"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1774266141" fill="black" latexdraw:position="bl">
+            <text x="33.48528480529785" y="465.30882263183594">\begin{tabular}{c} {\large Enkoder inkrementalny} \\  {\large AEAT-6012-A06}  \end{tabular}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id1435878566">
+            <rect x="18.64705882352945" y="621.0"
+                width="199.17647058823542" height="92.11764705882342"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id136062357" fill="black" latexdraw:position="bl">
+            <text x="32.48529243469238" y="685.308837890625">\begin{tabular}{c} {\large Silnik krokowy} \\  {\large NEMA17}  \end{tabular}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id1362892640">
+            <rect x="18.64705882352945" y="721.0"
+                width="199.17647058823542" height="92.11764705882342"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id707570904" fill="black" latexdraw:position="bl">
+            <text x="32.48529243469238" y="785.308837890625">\begin{tabular}{c} {\large Silnik krokowy} \\  {\large NEMA17}  \end{tabular}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id1811756310">
+            <rect x="309.32352043600645" y="21.0"
+                width="219.17647058823536" height="92.11764705882342"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id676033348" fill="black" latexdraw:position="bl">
+            <text x="314.1617736816406" y="76.30882263183594">{\large Enkoder inkrementalny}</text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id85453862">
+            <polyline
+                points="376.4705882352942,305.8823529411765 376.4705882352942,352.9411764705883 282.3529411764706,352.9411764705883 "
+                stroke-width="1.5" stroke="black" fill="none"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-85453862)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id1769431301">
+            <polyline
+                points="376.4705882352942,352.9411764705883 376.4705882352942,447.0588235294118 282.3529411764706,447.0588235294118 "
+                stroke-width="1.5" stroke="black" fill="none"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1769431301)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id363909465">
+            <polyline
+                points="564.7058823529412,305.8823529411765 376.4705882352942,305.8823529411765 376.4705882352942,258.82352941176475 282.3529411764706,258.82352941176475 "
+                stroke-width="1.5" stroke="black" fill="none"
+                latexdraw:rotationAngle="0.0"
+                marker-start="url(#arrow0-363909465)" marker-end="url(#arrow1-363909465)"/>
+        </g>
+        <g latexdraw:type="text" id="id1972151787" fill="black" latexdraw:position="bl">
+            <text x="467.0588235294118" y="325.8823529411765">SPI (1)</text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id1448097786">
+            <polyline
+                points="305.8823529411766,658.8235294117648 258.82352941176475,658.8235294117648 258.82352941176475,564.7058823529412 211.76470588235298,564.7058823529412 "
+                stroke-width="1.5" stroke="black" fill="none"
+                stroke-dasharray="8.819444444444445, 5.291666666666667"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1448097786)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id1716340534">
+            <polyline
+                points="258.82352941176475,658.8235294117648 258.82352941176475,682.3529411764707 211.76470588235298,682.3529411764707 "
+                stroke-width="1.5" stroke="black" fill="none"
+                stroke-dasharray="8.819444444444445, 5.291666666666667"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1716340534)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id1166554930">
+            <polyline
+                points="258.82352941176475,682.3529411764707 258.82352941176475,776.4705882352943 211.76470588235298,776.4705882352943 "
+                stroke-width="1.5" stroke="black" fill="none"
+                stroke-dasharray="8.819444444444445, 5.291666666666667"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1166554930)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id932670925">
+            <polyline
+                points="564.7058823529412,588.2352941176472 494.1176470588236,588.2352941176472 494.1176470588236,682.3529411764707 470.58823529411774,682.3529411764707 "
+                stroke-width="1.5" stroke="black" fill="none"
+                stroke-dasharray="8.819444444444445, 5.291666666666667"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-932670925)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id1381608762">
+            <polyline
+                points="423.52941176470597,117.64705882352943 423.52941176470597,541.1764705882354 564.7058823529412,541.1764705882354 "
+                stroke-width="1.5" stroke="black" fill="none"
+                stroke-dasharray="8.819444444444445, 5.291666666666667"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1381608762)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id256498647">
+            <polyline
+                points="941.1764705882355,258.82352941176475 941.1764705882355,117.64705882352943 "
+                stroke-width="1.5" stroke="black"
+                stroke-dasharray="8.819444444444445, 5.291666666666667"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-256498647)"/>
+        </g>
+        <g latexdraw:type="text" id="id543362936" fill="black" latexdraw:position="bl">
+            <text x="474.1176470588236" y="561.1764705882354">TIM (1)</text>
+        </g>
+        <g latexdraw:type="text" id="id264318115" fill="black" latexdraw:position="bl">
+            <text x="497.6470588235295" y="611.764705882353">TIM (2)</text>
+        </g>
+        <g latexdraw:type="text" id="id7799276" fill="black" latexdraw:position="bl">
+            <text x="554.1176452636719" y="219.01470184326172">{\large Mikrokontroler STM32F411RE}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id1787230955">
+            <rect x="541.9264705882354" y="236.0441176470589"
+                width="516.1470588235295" height="398.5"
+                latexdraw:borderPos="outer" stroke-width="1.5"
+                stroke="black" fill="none" stroke-dasharray="8.819444444444445, 5.291666666666667"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1033242088">
+            <rect x="541.9264705882354" y="188.9852941176471"
+                width="304.3823529411766" height="45.55882352941177"
+                latexdraw:borderPos="outer" stroke-width="1.5"
+                stroke="black" fill="none" stroke-dasharray="8.819444444444445, 5.291666666666667"/>
+        </g>
+        <g latexdraw:type="text" id="id812293068" fill="black" latexdraw:position="bl">
+            <text x="944.7058823529413" y="231.76470588235298">$\mathrm{I^{2}C (1)}$</text>
+        </g>
+    </g>
+    <defs>
+        <marker overflow="visible" orient="auto" id="arrow1-85453862">
+            <path d="M 0.0 0.0 L -18.0 3.0 L -18.0 0.0 L -18.0 -3.0 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-1769431301">
+            <path d="M 0.0 0.0 L -18.0 3.0 L -18.0 0.0 L -18.0 -3.0 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow0-363909465">
+            <path d="M 0.0 0.0 L 18.0 3.0 L 18.0 0.0 L 18.0 -3.0 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-363909465">
+            <path d="M 0.0 0.0 L -18.0 3.0 L -18.0 0.0 L -18.0 -3.0 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-1448097786">
+            <path d="M 0.0 0.0 L -18.0 3.0 L -18.0 0.0 L -18.0 -3.0 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-1716340534">
+            <path d="M 0.0 0.0 L -18.0 3.0 L -18.0 0.0 L -18.0 -3.0 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-1166554930">
+            <path d="M 0.0 0.0 L -18.0 3.0 L -18.0 0.0 L -18.0 -3.0 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-932670925">
+            <path d="M 0.0 0.0 L -18.0 3.0 L -18.0 0.0 L -18.0 -3.0 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-1381608762">
+            <path d="M 0.0 0.0 L -18.0 3.0 L -18.0 0.0 L -18.0 -3.0 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-256498647">
+            <path d="M 0.0 0.0 L -18.0 3.0 L -18.0 0.0 L -18.0 -3.0 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+    </defs>
+    <metadata>
+        <latexdraw:metadata>
+            <latexdraw:latexIncludes/>
+            <latexdraw:displayXScale>true</latexdraw:displayXScale>
+            <latexdraw:displayYScale>true</latexdraw:displayYScale>
+            <latexdraw:unit>CM</latexdraw:unit>
+            <latexdraw:zoom>0.8499999999999999</latexdraw:zoom>
+            <latexdraw:magneticGridStyle>CUSTOMISED</latexdraw:magneticGridStyle>
+            <latexdraw:gridGap>20</latexdraw:gridGap>
+            <latexdraw:magneticGrid>true</latexdraw:magneticGrid>
+            <latexdraw:version>3.3.8</latexdraw:version>
+            <latexdraw:size>
+                <latexdraw:width>1920</latexdraw:width>
+                <latexdraw:height>1053</latexdraw:height>
+            </latexdraw:size>
+            <latexdraw:position>
+                <latexdraw:x>1686.0</latexdraw:x>
+                <latexdraw:y>237.0</latexdraw:y>
+            </latexdraw:position>
+        </latexdraw:metadata>
+    </metadata>
+</svg>
