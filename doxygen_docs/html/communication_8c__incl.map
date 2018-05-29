@@ -1,0 +1,6 @@
+<map id="Src/communication.c" name="Src/communication.c">
+<area shape="rect" id="node2" href="$communication_8h.html" title="Communication with PC via UART. " alt="" coords="207,80,328,107"/>
+<area shape="rect" id="node7" href="$msg__defs_8h.html" title="Message definitions. " alt="" coords="501,155,591,181"/>
+<area shape="rect" id="node8" href="$motion__control_8h.html" title="Function prototypes and public variables for motion controll of the stepper motors. " alt="" coords="76,155,195,181"/>
+<area shape="rect" id="node9" href="$limits_8h.html" title="Limitation of the stepper motor and joints. " alt="" coords="95,244,159,271"/>
+</map>
