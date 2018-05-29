@@ -3,227 +3,304 @@
     xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw"
     version="1.1" baseProfile="full">
     <g>
-        <g latexdraw:type="rectangle" id="id1700218239">
-            <rect x="60.75" y="60.75" width="138.5" height="58.5"
-                latexdraw:borderPos="outer" stroke-width="1.5"
-                stroke="black" fill="none"/>
-        </g>
-        <g latexdraw:type="text" id="id1671869372" fill="black" latexdraw:position="bl">
-            <text x="91.5" y="98.5">{\Large STM32}</text>
-        </g>
-        <g latexdraw:type="rectangle" id="id2054574110">
-            <rect x="60.75" y="140.75" width="138.5" height="58.5"
-                latexdraw:borderPos="outer" stroke-width="1.5"
-                stroke="black" fill="none"/>
-        </g>
-        <g latexdraw:type="text" id="id349820845" fill="black" latexdraw:position="bl">
-            <text x="113.75" y="178.5">{\Large PC}</text>
-        </g>
-        <g latexdraw:type="rectangle" id="id1722135494">
+        <g latexdraw:type="rectangle" id="id823772217">
             <rect x="220.75" y="240.25001525878906" width="678.5"
                 height="158.5" latexdraw:borderPos="outer"
                 stroke-width="1.5" stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="rectangle" id="id2092300198">
+        <g latexdraw:type="rectangle" id="id488850962">
             <rect x="220.75" y="240.74996948242188" width="678.5"
                 height="38.5" latexdraw:borderPos="outer"
                 stroke-width="1.5" stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id928780599" fill="black" latexdraw:position="bl">
-            <text x="482.5" y="270.4999694824219">{\large Nadzorca zadań (*)}</text>
+        <g latexdraw:type="text" id="id1741138046" fill="black" latexdraw:position="bl">
+            <text x="482.5" y="270.4999694824219">{\large Nadzorca zadań (Task Manager)}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id1176491282">
+        <g latexdraw:type="rectangle" id="id1624469826">
             <rect x="240.75" y="300.75" width="138.5" height="78.5"
                 latexdraw:borderPos="outer" stroke-width="1.5"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1111514955" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id2082724826" fill="black" latexdraw:position="bl">
             <text x="231.0" y="357.0">\begin{tabular}{c} Obsługa kolejki \\ rozkazów \end{tabular}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id1963314740">
-            <rect x="400.75" y="300.75" width="218.5" height="78.5"
-                latexdraw:borderPos="outer" stroke-width="1.5"
-                stroke="black" fill="none"/>
-        </g>
-        <g latexdraw:type="text" id="id669094002" fill="black" latexdraw:position="bl">
-            <text x="391.0" y="357.0">\begin{tabular}{c} Wysyłanie komunikatów \\ do PC/STM32 \end{tabular}</text>
-        </g>
-        <g latexdraw:type="rectangle" id="id1553056568">
-            <rect x="640.75" y="300.75" width="218.5" height="78.5"
-                latexdraw:borderPos="outer" stroke-width="1.5"
-                stroke="black" fill="none"/>
-        </g>
-        <g latexdraw:type="text" id="id986689488" fill="black" latexdraw:position="bl">
-            <text x="631.0" y="357.0">\begin{tabular}{c} Odbieranie komunikatów \\ z PC/STM32 \end{tabular}</text>
-        </g>
-        <g latexdraw:type="rectangle" id="id1004543292">
+        <g latexdraw:type="rectangle" id="id1213588701">
             <rect x="220.75" y="460.25001525878906" width="678.5"
                 height="278.5" latexdraw:borderPos="outer"
                 stroke-width="1.5" stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="rectangle" id="id1318174444">
+        <g latexdraw:type="rectangle" id="id563911740">
             <rect x="220.75" y="460.7499694824219" width="678.5"
                 height="38.5" latexdraw:borderPos="outer"
                 stroke-width="1.5" stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1099112140" fill="black" latexdraw:position="bl">
-            <text x="482.5" y="490.4999694824219">{\large Sterownik ruchu}</text>
+        <g latexdraw:type="text" id="id638802379" fill="black" latexdraw:position="bl">
+            <text x="402.5" y="490.4999694824219">{\large Sterownik ruchu(Motion Controller)}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id36093646">
+        <g latexdraw:type="rectangle" id="id1663781961">
             <rect x="240.75" y="520.75" width="198.5" height="78.5"
                 latexdraw:borderPos="outer" stroke-width="1.5"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id2005200245" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id453743401" fill="black" latexdraw:position="bl">
             <text x="231.0" y="577.0">\begin{tabular}{c} Limity przyśpieszeń \\ (związane ze stawami) \end{tabular}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id1336707628">
+        <g latexdraw:type="rectangle" id="id586927365">
             <rect x="240.75" y="620.75" width="198.5" height="78.5"
                 latexdraw:borderPos="outer" stroke-width="1.5"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id596420160" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id1232687471" fill="black" latexdraw:position="bl">
             <text x="231.0" y="677.0">\begin{tabular}{c} Limity prędkości \\ (związane ze stawami) \end{tabular}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id1925953399">
+        <g latexdraw:type="rectangle" id="id890646176">
             <rect x="460.75" y="520.75" width="198.5" height="78.5"
                 latexdraw:borderPos="outer" stroke-width="1.5"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id204539951" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id2145343883" fill="black" latexdraw:position="bl">
             <text x="451.0" y="577.0">\begin{tabular}{c} Sprzężenie zwrotne z \\ enkoderami \end{tabular}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id603597561">
+        <g latexdraw:type="rectangle" id="id2075659262">
             <rect x="460.75" y="620.75" width="198.5" height="78.5"
                 latexdraw:borderPos="outer" stroke-width="1.5"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1258246010" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id1432581338" fill="black" latexdraw:position="bl">
             <text x="451.0" y="677.0">\begin{tabular}{c} Limity pozycji \\ (związane ze stawami) \end{tabular}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id482063169">
+        <g latexdraw:type="rectangle" id="id1858036339">
             <rect x="680.75" y="520.75" width="198.5" height="78.5"
                 latexdraw:borderPos="outer" stroke-width="1.5"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1343374085" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id1283743543" fill="black" latexdraw:position="bl">
             <text x="671.0" y="577.0">\begin{tabular}{c} Zadawanie trajektorii \\ prędkości \end{tabular}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id1955900052">
+        <g latexdraw:type="rectangle" id="id1505558574">
             <rect x="220.75" y="800.2500152587891" width="678.5"
                 height="278.5" latexdraw:borderPos="outer"
                 stroke-width="1.5" stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="rectangle" id="id2058085301">
+        <g latexdraw:type="rectangle" id="id1181299518">
             <rect x="220.75" y="800.7499694824219" width="678.5"
                 height="38.5" latexdraw:borderPos="outer"
                 stroke-width="1.5" stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id673263795" fill="black" latexdraw:position="bl">
-            <text x="442.5" y="830.4999694824219">{\large Silniki krokowe - biblioteka}</text>
+        <g latexdraw:type="text" id="id1239757988" fill="black" latexdraw:position="bl">
+            <text x="442.5" y="830.4999694824219">{\large Silniki krokowe (Stepper)}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id221435977">
+        <g latexdraw:type="rectangle" id="id1176112741">
             <rect x="240.75" y="860.75" width="198.5" height="78.5"
                 latexdraw:borderPos="outer" stroke-width="1.5"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1931743086" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id2040709188" fill="black" latexdraw:position="bl">
             <text x="231.0" y="907.75">{Zadawanie prędkości}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id1750036947">
+        <g latexdraw:type="rectangle" id="id1868398643">
             <rect x="240.75" y="960.75" width="198.5" height="78.5"
                 latexdraw:borderPos="outer" stroke-width="1.5"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id87781742" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id273387193" fill="black" latexdraw:position="bl">
             <text x="231.0" y="1017.0">\begin{tabular}{c} Limity prędkości \\ (sprzętowe) \end{tabular}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id384391667">
+        <g latexdraw:type="rectangle" id="id320133275">
             <rect x="460.75" y="860.75" width="198.5" height="78.5"
                 latexdraw:borderPos="outer" stroke-width="1.5"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id96070665" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id1593805988" fill="black" latexdraw:position="bl">
             <text x="451.0" y="917.0">{Obsługa liczników}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id1505954700">
+        <g latexdraw:type="rectangle" id="id1796884448">
             <rect x="460.75" y="960.75" width="198.5" height="78.5"
                 latexdraw:borderPos="outer" stroke-width="1.5"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1224209046" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id90520527" fill="black" latexdraw:position="bl">
             <text x="451.0" y="1017.0">\begin{tabular}{c} Informacje dot. \\ fizycznych wyprowadzeń \end{tabular}</text>
         </g>
-        <g latexdraw:type="joinedLines" id="id1937896197">
+        <g latexdraw:type="joinedLines" id="id2120263612">
             <polyline points="540.0,400.0 540.0,460.0 "
                 stroke-width="1.5" stroke="black"
                 latexdraw:rotationAngle="0.0"
-                marker-start="url(#arrow0-1937896197)" marker-end="url(#arrow1-1937896197)"/>
+                marker-start="url(#arrow0-2120263612)" marker-end="url(#arrow1-2120263612)"/>
         </g>
-        <g latexdraw:type="joinedLines" id="id1078634614">
+        <g latexdraw:type="joinedLines" id="id2030148568">
             <polyline points="560.0,740.0 560.0,800.0 "
                 stroke-width="1.5" stroke="black"
                 stroke-dasharray="8.819444444444445, 5.291666666666667"
-                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1078634614)"/>
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-2030148568)"/>
         </g>
-        <g latexdraw:type="joinedLines" id="id94528446">
-            <polyline points="580.0,240.0 580.0,180.0 200.0,180.0 "
-                stroke-width="1.5" stroke="black" fill="none"
+        <g latexdraw:type="rectangle" id="id492127930">
+            <rect x="220.75" y="20.250015258789062" width="678.5"
+                height="158.5" latexdraw:borderPos="outer"
+                stroke-width="1.5" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1077766604">
+            <rect x="220.75" y="20.749969482421875" width="678.5"
+                height="38.5" latexdraw:borderPos="outer"
+                stroke-width="1.5" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1691840279" fill="black" latexdraw:position="bl">
+            <text x="482.5" y="50.499969482421875">{\large Komunikacja (Communication)}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id1334774088">
+            <rect x="240.75" y="80.75" width="138.5" height="78.5"
+                latexdraw:borderPos="outer" stroke-width="1.5"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id416118067" fill="black" latexdraw:position="bl">
+            <text x="231.0" y="137.0">\begin{tabular}{c} Wysyłanie \\ rozkazów \end{tabular}</text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id801110571">
+            <polyline points="540.0,180.0 540.0,240.0 "
+                stroke-width="1.5" stroke="black"
                 latexdraw:rotationAngle="0.0"
-                marker-start="url(#arrow0-94528446)" marker-end="url(#arrow1-94528446)"/>
+                marker-start="url(#arrow0-801110571)" marker-end="url(#arrow1-801110571)"/>
         </g>
-        <g latexdraw:type="joinedLines" id="id150118357">
-            <polyline points="580.0,180.0 580.0,100.0 200.0,100.0 "
-                stroke-width="1.5" stroke="black" fill="none"
-                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-150118357)"/>
+        <g latexdraw:type="rectangle" id="id1722321506">
+            <rect x="420.75" y="80.75" width="138.5" height="78.5"
+                latexdraw:borderPos="outer" stroke-width="1.5"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id809084238" fill="black" latexdraw:position="bl">
+            <text x="411.0" y="137.0">\begin{tabular}{c} Odbieranie  \\ rozkazów \end{tabular}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id1026629598">
+            <rect x="420.75" y="300.75" width="138.5" height="78.5"
+                latexdraw:borderPos="outer" stroke-width="1.5"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1679328538" fill="black" latexdraw:position="bl">
+            <text x="411.0" y="357.0">\begin{tabular}{c} Kolejkowanie \\ rozkazów \end{tabular}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id505171581">
+            <rect x="600.75" y="300.75" width="138.5" height="78.5"
+                latexdraw:borderPos="outer" stroke-width="1.5"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id256528626" fill="black" latexdraw:position="bl">
+            <text x="591.0" y="357.0">\begin{tabular}{c} Wykonywanie \\ rozkazów \end{tabular}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id1111829402">
+            <rect x="-299.25" y="800.2500152587891" width="498.5"
+                height="158.5" latexdraw:borderPos="outer"
+                stroke-width="1.5" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1395301685">
+            <rect x="-299.25" y="800.7499694824219" width="498.5"
+                height="38.5" latexdraw:borderPos="outer"
+                stroke-width="1.5" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id776615243" fill="black" latexdraw:position="bl">
+            <text x="-157.5" y="830.4999694824219">{\large Enkodery (Encoders)}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id688834178">
+            <rect x="-279.25" y="860.75" width="198.5" height="78.5"
+                latexdraw:borderPos="outer" stroke-width="1.5"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id708488949" fill="black" latexdraw:position="bl">
+            <text x="-289.0" y="907.75">{Odczyt pozycji}</text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id1328149547">
+            <polyline points="-20.0,800.0 -20.0,800.0 "
+                stroke-width="2.0" stroke="black" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1812272970">
+            <rect x="-39.25" y="860.75" width="198.5" height="78.5"
+                latexdraw:borderPos="outer" stroke-width="1.5"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id508545494" fill="black" latexdraw:position="bl">
+            <text x="-49.0" y="907.75">{Konwersja na radiany}</text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id942466550">
+            <polyline points="-60.0,800.0 -60.0,600.0 220.0,600.0 "
+                stroke-width="2.0" stroke="black" fill="none"
+                latexdraw:rotationAngle="0.0"
+                marker-start="url(#arrow0-942466550)" marker-end="url(#arrow1-942466550)"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id240912029">
+            <rect x="-99.25" y="60.75" width="198.5" height="78.5"
+                latexdraw:borderPos="outer" stroke-width="1.5"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1194339441" fill="black" latexdraw:position="bl">
+            <text x="-29.0" y="107.75">{\large PC}</text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id1620238158">
+            <polyline
+                points="106.6666666666667,106.6666666666667 213.3333333333334,106.6666666666667 "
+                stroke-width="2.0" stroke="black"
+                latexdraw:rotationAngle="0.0"
+                marker-start="url(#arrow0-1620238158)" marker-end="url(#arrow1-1620238158)"/>
         </g>
     </g>
     <defs>
-        <marker overflow="visible" orient="auto" id="arrow0-1937896197">
+        <marker overflow="visible" orient="auto" id="arrow0-2120263612">
             <path d="M 0.0 0.0 L 9.0 3.0 L 9.0 0.0 L 9.0 -3.0 z "
                 latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
-        <marker overflow="visible" orient="auto" id="arrow1-1937896197">
+        <marker overflow="visible" orient="auto" id="arrow1-2120263612">
             <path d="M 0.0 0.0 L -9.0 3.0 L -9.0 0.0 L -9.0 -3.0 z "
                 latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
-        <marker overflow="visible" orient="auto" id="arrow1-1078634614">
+        <marker overflow="visible" orient="auto" id="arrow1-2030148568">
             <path d="M 0.0 0.0 L -9.0 3.0 L -9.0 0.0 L -9.0 -3.0 z "
                 latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
-        <marker overflow="visible" orient="auto" id="arrow0-94528446">
+        <marker overflow="visible" orient="auto" id="arrow0-801110571">
             <path d="M 0.0 0.0 L 9.0 3.0 L 9.0 0.0 L 9.0 -3.0 z "
                 latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
-        <marker overflow="visible" orient="auto" id="arrow1-94528446">
+        <marker overflow="visible" orient="auto" id="arrow1-801110571">
             <path d="M 0.0 0.0 L -9.0 3.0 L -9.0 0.0 L -9.0 -3.0 z "
                 latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
-        <marker overflow="visible" orient="auto" id="arrow1-150118357">
-            <path d="M 0.0 0.0 L -9.0 3.0 L -9.0 0.0 L -9.0 -3.0 z "
+        <marker overflow="visible" orient="auto" id="arrow0-942466550">
+            <path
+                d="M 0.0 0.0 L 7.452083333333333 2.6614583333333335 L 7.452083333333333 0.0 L 7.452083333333333 -2.6614583333333335 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-942466550">
+            <path
+                d="M 0.0 0.0 L -7.452083333333333 2.6614583333333335 L -7.452083333333333 0.0 L -7.452083333333333 -2.6614583333333335 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow0-1620238158">
+            <path
+                d="M 0.0 0.0 L 7.1325 2.3775 L 7.1325 0.0 L 7.1325 -2.3775 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-1620238158">
+            <path
+                d="M 0.0 0.0 L -7.1325 2.3775 L -7.1325 0.0 L -7.1325 -2.3775 z "
                 latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
     </defs>
     <metadata>
         <latexdraw:metadata>
             <latexdraw:latexIncludes>\usepackage[utf8]{inputenc}
-\usepackage{polski}
-</latexdraw:latexIncludes>
+\usepackage{polski}</latexdraw:latexIncludes>
             <latexdraw:displayXScale>true</latexdraw:displayXScale>
             <latexdraw:displayYScale>true</latexdraw:displayYScale>
             <latexdraw:unit>CM</latexdraw:unit>
-            <latexdraw:zoom>1.0</latexdraw:zoom>
+            <latexdraw:zoom>0.7499999999999998</latexdraw:zoom>
             <latexdraw:magneticGridStyle>CUSTOMISED</latexdraw:magneticGridStyle>
             <latexdraw:gridGap>20</latexdraw:gridGap>
             <latexdraw:magneticGrid>true</latexdraw:magneticGrid>
             <latexdraw:version>3.3.8</latexdraw:version>
             <latexdraw:size>
                 <latexdraw:width>1920</latexdraw:width>
-                <latexdraw:height>1053</latexdraw:height>
+                <latexdraw:height>1173</latexdraw:height>
             </latexdraw:size>
             <latexdraw:position>
-                <latexdraw:x>1632.0</latexdraw:x>
-                <latexdraw:y>40.0</latexdraw:y>
+                <latexdraw:x>1920.0</latexdraw:x>
+                <latexdraw:y>27.0</latexdraw:y>
             </latexdraw:position>
         </latexdraw:metadata>
     </metadata>
