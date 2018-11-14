@@ -19,7 +19,7 @@
 \usepackage{polski}
 \usepackage[utf8]{inputenc}
 \usepackage{subfig}
-
+\usepackage{adjustbox}
 
 % There are many different themes available for Beamer. A comprehensive
 % list with examples is given here:
@@ -54,8 +54,9 @@
 %\usetheme{Szeged}
 %\usetheme{Warsaw}
 
-\beamertemplatenavigationsymbolsempty
 
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{caption}[numbered]
 \definecolor{ok}{RGB}{1, 115, 0}
 \definecolor{nok}{RGB}{240, 191, 12}
 \title[Sterowanie pozycyjne silnikami krokowymi.]{Sterowanie pozycyjne silnikami krokowymi}
@@ -104,7 +105,7 @@
 %    \tableofcontents[currentsection,currentsubsection]
 %  \end{frame}
 %}
-
+\setbeamersize{text margin left=15mm,text margin right=15mm} 
 % Let's get started
 \begin{document}
 
@@ -112,44 +113,228 @@
   \titlepage
 \end{frame}
 
-\begin{frame}{Plan prezentacji.}
+\begin{frame}{Plan prezentacji}
   \tableofcontents
   % You might wish to add the option [pausesections]
 \end{frame}
 
-% Section and subsections will appear in the presentation overview
-% and table of contents.
-\section{Wstęp - manipulator dydaktyczny.}
 
-\begin{frame}{Manipulator dydaktyczny.}
-\begin{columns}[T]
-	\begin{column}{.5\textwidth}
-		\begin{itemize}
+\section{Cel pracy}
+\begin{frame}{Cel pracy}
+	Zaprojektowanie systemu robotycznego, który będzie można wykorzystać przedmiocie ANRO\footnote{Anatomia Robotów}  oraz spełniającego następujące założenia:
+	\\
+	\begin{itemize}
 		\item {
-			Projekt realizowany w ramach działalności koła naukowego KNR Bionik.
+			prosta konstrukcja wykonana za pomocą ogólnodostępnych technik
 		}
-		\item {
-			Pierwszy prototyp powstał w semestrze 16Z.
+		\item{
+			niski koszt wykonania		
 		}
-		\item {
-			Aktualnie rozwijany jest drugi prototyp.	 	
+		
+		\item{
+			bezawaryjność	
 		}
-		\end{itemize}
-	\end{column}
-	\begin{column}{.5\textwidth}
-		\begin{figure}%
-			\centering
-			\subfloat[Pierwszy prototyp]{{\includegraphics[width=.43\textwidth]{img/v1.png} }}%
-			\qquad
-			\subfloat[Aktualna wersja]{{\includegraphics[width=.43\textwidth]{img/v2.jpeg} }}%
-%			\caption{2 Figures side by side}%
-			\label{fig:example}%
-		\end{figure}
-	\end{column}
-\end{columns}
+		
+		\item{
+			integracja z systemem ROS	
+		}
+		
+	\end{itemize}
 \end{frame}
 
-\section{Struktura robota.}
+\section{Geneza projektu}
+\begin{frame}{Manipulator dydaktyczny}
+			\begin{itemize}
+				\item {
+					Projekt jest realizowany w ramach działalności koła naukowego KNR Bionik.
+				}
+				\item {
+					Pierwszy prototyp powstał w semestrze 16Z na podstawie współpracy z firmą 3DMaxBaum.
+				}
+				\item {
+					Pierwszymi autorami byli \textbf{Maciej Pawliński} oraz \textbf{Tomasz Ziemnicki}.	 	
+				}
+			\end{itemize}
+			\begin{figure}%
+				\centering
+				\subfloat[Pierwszy prototyp]{{\includegraphics[width=.3\textwidth]{img/v1.png} }}%
+				\qquad
+				\subfloat[Aktualna wersja]{{\includegraphics[width=.3\textwidth]{img/v2.jpeg} }}%
+				%			\caption{2 Figures side by side}%
+				\label{fig:example}%
+			\end{figure}
+\end{frame}
+
+\section{Wykorzystane narzędzia}
+%\subsection{ROS}
+\begin{frame}{Wykorzystane narzędzia - ROS}
+	ROS  - platforma programistyczna wykorzystywana do tworzenia oprogramowania sterowania robota
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=0.6\textheight]{img/kinetic.png}
+		\caption{Źródło: www.ros.org}
+		\label{ros:kinetic}
+	\end{figure}
+\end{frame}
+
+%\subsection{STM32CubeMX}
+\begin{frame}{Wykorzystane narzędzia - STM32CubeMX}
+	STM32CubeMX - generator kodu inicjalizującego mikrokontroler sterujący
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=0.5\textheight]{img/stm32cubemx.jpg}
+		\caption{Źródło: www.st.com}
+		\label{ros:stm32cubemx}
+	\end{figure}
+\end{frame}
+
+
+
+\section{Konstrukcja robota}
+\subsection{Struktura robota}
+\begin{frame}{Struktura robota}
+	\begin{itemize}
+		\item Struktura typu przegubowego - wszystkie osie są obrotowe.
+		\item Trzy stopnie swobody
+	\end{itemize}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=0.5\textheight]{img/calosctechn.jpg}
+		\caption{Techniczny szkic przedstawiający strukturę robota.}
+		\label{ros:rys_techniczny}
+	\end{figure}
+\end{frame}
+
+\subsection{Proces budowy}
+\begin{frame}{Proces budowy - człon pierwszy }
+	\begin{figure}%
+		\centering
+		\subfloat[Przed złożeniem]{{\includegraphics[width=.45\textwidth]{img/czlon1_1.jpg} }}%
+		\qquad
+		\subfloat[Efekt końcowy]{{\includegraphics[width=.45\textwidth]{img/czlon1_2.jpg} }}%
+		\caption{Budowa pierwszego członu}
+		\label{fig:konstrukcja:czlon1}%
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Proces budowy - człon drugi }
+\begin{figure}%
+	\centering
+	\subfloat[Przed złożeniem]{{\includegraphics[width=.45\textwidth]{img/czlon2_1.jpg} }}%
+	\qquad
+	\subfloat[Efekt końcowy]{{\includegraphics[width=.45\textwidth]{img/czlon2_2.jpg} }}%
+	\caption{Budowa drugiego członu}
+	\label{fig:konstrukcja:czlon2}%
+\end{figure}
+\end{frame}
+
+\begin{frame}{Proces budowy - człon trzeci }
+\begin{figure}%
+	\centering
+	\subfloat[Przed złożeniem]{{\includegraphics[width=.45\textwidth]{img/czlon3_1.jpg} }}%
+	\qquad
+	\subfloat[Efekt końcowy]{{\includegraphics[width=.45\textwidth]{img/czlon3_2.jpg} }}%
+	\caption{Budowa trzeciego członu}
+	\label{fig:konstrukcja:czlon3}%
+\end{figure}
+\end{frame}
+
+\begin{frame}{Proces budowy - wynik końcowy}
+	\begin{figure}%
+		\centering
+		\includegraphics[width=.6\textwidth]{img/calosc_stolik.jpg} 
+			\caption{Robot zamontowany na skrzyni sterowniczej}
+			\label{fig:konstrukcja:wynik}%
+		\end{figure}
+\end{frame}
+
+
+\section{Elektronika}
+
+\begin{frame}{Elektronika - mikrokontroler}
+	
+\begin{table}
+	%\centering
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{|c|c|c|}
+			\hline
+			Model & \textbf{STM32F411RE}  & STM32F103RB \\ 
+			\hline
+			Rdzeń & ARM Cortex M4 32-bit & ARM Cortex M3 32-bit \\ 
+			\hline
+			DMIPS\footnote{Wynik w DMIPS (dhrystones MIPS) określa, ile razy dany system jest szybszy od minikomputera VAX 11/780 z 1977 r.} & $<225$ & $<61$ \\ 
+			\hline
+			Pamięć FLASH & $\SI{512}{Kbytes}$ & $\SI{128}{Kbytes}$ \\
+			\hline
+			Częstotliwość taktowania & $\SI{100}{Mhz}$ & $\SI{72}{Mhz}$ \\
+			\hline
+			Liczba Timerów &  $\num{11}$ &  $\num{7}$  \\
+			\hline
+			Interfejsy &  $5\times\mathrm{SPI}$ &  $2\times\mathrm{SPI}$\\
+			\hline
+			Zasilanie & $\SI{3.3}{V}$  & $\SI{3.3}{V}$\\
+			\hline
+			Cena & $\SI{~80}{zł}$ & $\SI{~65}{zł}$ \\
+			\hline
+		\end{tabular}
+		
+	}
+	\caption{Specyfikacja mikrokontrolera STM32F411RE}
+	\label{tab:stm32_spec}
+\end{table}
+
+
+\end{frame}
+
+\begin{frame}{Elektronika - enkodery}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=0.6\textheight]{img/encoder_aeat6012_a06.jpg}
+		\caption{Enkoder absolutny magnetyczny AEAT-6012-A06 Źródło: www.octopart.com}
+		\label{ros:enkoder}
+	\end{figure}
+\end{frame}	
+
+\begin{frame}{Elektronika - silniki}
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=0.6\textheight]{img/stepper_motor_gear.jpg}
+		\caption{Silnik krokowy (wersja z przekładnią)}
+		\label{ros:krokowiec}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Elektronika - sterownik silników}
+	
+	\begin{figure}%
+		\centering
+		\subfloat[Toshiba TB6560AHQ]{{\includegraphics[width=.65\textwidth]{img/stepper_driver.jpg} }}%
+		\qquad
+		\subfloat[L6470 Źródło: www.st.com]{{\includegraphics[width=.25\textwidth]{img/x-nucleo-ihm02a1.jpg} }}%
+		\caption{Sterowniki silników krokowych}
+		\label{fig:sterownik:porownanie}%
+		
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Elektronika - schemat ideowy}
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=0.6\textheight]{img/core_agent_hardware_schematics.png}
+		\caption{Ideowy schemat połączeniowy.}
+		\label{ros:schemat-elektronika}
+	\end{figure}
+	
+\end{frame}
+
+\section{Oprogramowanie niskopoziomowe}
+
+\begin{frame}{Oprogramowanie niskopoziomowe - schemat ideowy}
+\end{frame}
+
+\section{Oprogramowanie PC}
 
 \begin{frame}{Struktura robota.}
 	\begin{itemize}
@@ -181,6 +366,7 @@
 			Komunikacja z komputerem.
 		}
 	\end{itemize}
+	
 		\begin{figure}%
 			\centering
 			\subfloat[Enkoder]{{\includegraphics[width=.25\textwidth]{img/encoder_aeat6012_a06.jpg} }}%
@@ -192,27 +378,26 @@
 		\end{figure}
 \end{frame}
 
-\section{Aktualny stan prac.}
-\begin{frame}{Aktualny stan prac.}
-	\begin{columns}[T]
-		\begin{column}{.5\textwidth}
-			\textcolor{ok}{Wykonano:}
-			\begin{itemize}
-				\item Obsługa sterownika silników
-				\item Obsługa enkoderów.
-				\item Prędkościowe sterowanie silników
-				\item Pozycyjne sterowanie silników w pętli zamkniętej.
-			\end{itemize}
-		\end{column}
-		\begin{column}{.5\textwidth}
-			\textcolor{nok}{W trakcie:}
-			\begin{itemize}
-				\item Ograniczenia na prędkości, przyśpieszenie, położenie.
-				\item Komunikacja z komputerem.
-				\item Tworzenie dokumentacji.
-			\end{itemize}
-		\end{column}
-	\end{columns}
+
+\section{Założenia projektowe}
+\begin{frame}{Założenia projektowe}
+	\begin{itemize}
+		\item {
+			sterowanie prędkościowe silnikami krokowymi
+		}
+		\item {
+			zadawanie odpowiedniej trajektorii prędkości (w celu wyelminowania uderzenia)
+		}
+		\item {
+			sterowanie pozycyjne w pętli zamkniętej ze sprzężeniem od strony enkoderów
+		}
+		\item{
+			ograniczenia na prędkości, przyśpieszenie, położenie
+		}
+		\item{
+			komunikacja z komputerem.
+		}
+	\end{itemize}
 \end{frame}
 
 \section{Lista współautorów.}
