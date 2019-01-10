@@ -59,10 +59,9 @@
 \setbeamertemplate{caption}[numbered]
 \definecolor{ok}{RGB}{1, 115, 0}
 \definecolor{nok}{RGB}{240, 191, 12}
-\title[Sterowanie pozycyjne silnikami krokowymi.]{Sterowanie pozycyjne silnikami krokowymi}
+\title[]{Sterowanie prototypowym robotem manipulacyjnym Bombel}
 
 % A subtitle is optional and this may be deleted
-\subtitle{na przykładzie manipulatora dydaktycznego.}
 
 \author{Michał Romanowski}
 % - Give the names in the same order as the appear in the paper.
@@ -111,6 +110,9 @@
 
 \begin{frame}
   \titlepage
+  \begin{center}
+	 Opiekun: dr Tomasz Winiarski
+  \end{center}
 \end{frame}
 
 \begin{frame}{Plan prezentacji}
@@ -143,7 +145,7 @@
 \end{frame}
 
 \section{Geneza projektu}
-\begin{frame}{Manipulator dydaktyczny}
+\begin{frame}{Geneza projektu}
 			\begin{itemize}
 				\item {
 					Projekt jest realizowany w ramach działalności koła naukowego KNR Bionik.
@@ -209,9 +211,9 @@
 \begin{frame}{Proces budowy - człon pierwszy }
 	\begin{figure}%
 		\centering
-		\subfloat[Przed złożeniem]{{\includegraphics[width=.45\textwidth]{img/czlon1_1.jpg} }}%
+		\subfloat[Przed złożeniem]{{\includegraphics[width=.4\textwidth]{img/czlon1_1.jpg} }}%
 		\qquad
-		\subfloat[Efekt końcowy]{{\includegraphics[width=.45\textwidth]{img/czlon1_2.jpg} }}%
+		\subfloat[Efekt końcowy]{{\includegraphics[width=.4\textwidth]{img/czlon1_2.jpg} }}%
 		\caption{Budowa pierwszego członu}
 		\label{fig:konstrukcja:czlon1}%
 	\end{figure}
@@ -220,9 +222,9 @@
 \begin{frame}{Proces budowy - człon drugi }
 \begin{figure}%
 	\centering
-	\subfloat[Przed złożeniem]{{\includegraphics[width=.45\textwidth]{img/czlon2_1.jpg} }}%
+	\subfloat[Przed złożeniem]{{\includegraphics[width=.4\textwidth]{img/czlon2_1.jpg} }}%
 	\qquad
-	\subfloat[Efekt końcowy]{{\includegraphics[width=.45\textwidth]{img/czlon2_2.jpg} }}%
+	\subfloat[Efekt końcowy]{{\includegraphics[width=.4\textwidth]{img/czlon2_2.jpg} }}%
 	\caption{Budowa drugiego członu}
 	\label{fig:konstrukcja:czlon2}%
 \end{figure}
@@ -231,9 +233,9 @@
 \begin{frame}{Proces budowy - człon trzeci }
 \begin{figure}%
 	\centering
-	\subfloat[Przed złożeniem]{{\includegraphics[width=.45\textwidth]{img/czlon3_1.jpg} }}%
+	\subfloat[Przed złożeniem]{{\includegraphics[width=.4\textwidth]{img/czlon3_1.jpg} }}%
 	\qquad
-	\subfloat[Efekt końcowy]{{\includegraphics[width=.45\textwidth]{img/czlon3_2.jpg} }}%
+	\subfloat[Efekt końcowy]{{\includegraphics[width=.4\textwidth]{img/czlon3_2.jpg} }}%
 	\caption{Budowa trzeciego członu}
 	\label{fig:konstrukcja:czlon3}%
 \end{figure}
@@ -251,8 +253,9 @@
 
 \section{Elektronika}
 
+
 \begin{frame}{Elektronika - mikrokontroler}
-	
+
 \begin{table}
 	%\centering
 	\resizebox{\textwidth}{!}{
@@ -274,7 +277,7 @@
 			\hline
 			Zasilanie & $\SI{3.3}{V}$  & $\SI{3.3}{V}$\\
 			\hline
-			Cena & $\SI{~80}{zł}$ & $\SI{~65}{zł}$ \\
+			Cena & 80zł  & 65zł \\
 			\hline
 		\end{tabular}
 		
@@ -285,7 +288,6 @@
 
 
 \end{frame}
-
 \begin{frame}{Elektronika - enkodery}
 	\begin{figure}[h]
 		\centering
@@ -309,9 +311,9 @@
 	
 	\begin{figure}%
 		\centering
-		\subfloat[Toshiba TB6560AHQ]{{\includegraphics[width=.65\textwidth]{img/stepper_driver.jpg} }}%
+		\subfloat[Toshiba TB6560AHQ]{{\includegraphics[width=.6\textwidth]{img/stepper_driver.jpg} }}%
 		\qquad
-		\subfloat[L6470 Źródło: www.st.com]{{\includegraphics[width=.25\textwidth]{img/x-nucleo-ihm02a1.jpg} }}%
+		\subfloat[ST L6470 \\ Źródło: www.st.com]{{\includegraphics[width=.25\textwidth]{img/x-nucleo-ihm02a1.jpg} }}%
 		\caption{Sterowniki silników krokowych}
 		\label{fig:sterownik:porownanie}%
 		
@@ -322,82 +324,48 @@
 	
 	\begin{figure}[h]
 		\centering
-		\includegraphics[height=0.6\textheight]{img/core_agent_hardware_schematics.png}
+		\includegraphics[height=0.6\textheight]{img/core_agent_hardware_schematics-1.png}
 		\caption{Ideowy schemat połączeniowy.}
 		\label{ros:schemat-elektronika}
 	\end{figure}
 	
 \end{frame}
 
-\section{Oprogramowanie niskopoziomowe}
+\section{Oprogramowanie}
 
-\begin{frame}{Oprogramowanie niskopoziomowe - schemat ideowy}
-\end{frame}
-
-\section{Oprogramowanie PC}
-
-\begin{frame}{Struktura robota.}
+\begin{frame}{Oprogramowanie - zadania}
 	\begin{itemize}
-		\item {Trzy stopnie swobody.}
-		\item {Enkodery na każdym stawie}.
-		\item {System sterowania oparty na mikrokontrolerze \textit{STM32F411RE}.}
-		\item {Sterownik silników krokowych oparty na układach \textit{Toshiba TB6560}.}
-		\item {Zasilanie 12\textsc{V}.}
+		\item {
+			Obsługa enkoderów
+		}
+		\item {
+			Bazowanie
+		}
+		\item {
+			Zadawanie odpowiedniej trajektorii prędkości (w celu wyelminowania uderzenia)
+		}
+		\item {
+			Sterowanie pozycyjne w pętli zamkniętej ze sprzężeniem od strony sterownika silników
+		}
+		\item{
+			Ograniczenia na prędkości, przyśpieszenie, położenie
+		}
+		\item{
+			Implementacja protokołu ROSSerial		}
+		\item{
+			Komunikacja z komputerem za pomocą USB/UART
+		}
 	\end{itemize}
 \end{frame}
 
-\section{Założenia projektu}
-\begin{frame}{Założenia projektu.}
-
-	\begin{itemize}
-		\item {
-			Sterowanie prędkościowe silnikami krokowymi.
-		}
-		\item {
-			Zadawanie odpowiedniej trajektorii prędkości (w celu wyelminowania uderzenia).
-		}
-		\item {
-			Sterowanie pozycyjne w pętli zamkniętej ze sprzężeniem od strony enkoderów.
-		}
-		\item{
-			Ograniczenia na prędkości, przyśpieszenie, położenie.
-		}
-		\item{
-			Komunikacja z komputerem.
-		}
-	\end{itemize}
+\begin{frame}{Oprogramowanie - schemat ideowy}
 	
-		\begin{figure}%
-			\centering
-			\subfloat[Enkoder]{{\includegraphics[width=.25\textwidth]{img/encoder_aeat6012_a06.jpg} }}%
-			\qquad
-			\subfloat[Sterownik silników krokowych]{{\includegraphics[width=.25\textwidth]{img/stepper_driver.jpg} }}%
-			\qquad
-			\subfloat[Silnik krokowy]{{\includegraphics[width=.25\textwidth]{img/stepper_motor_gear.jpg} }}%
-			\label{fig:example2}%
-		\end{figure}
-\end{frame}
-
-
-\section{Założenia projektowe}
-\begin{frame}{Założenia projektowe}
-	\begin{itemize}
-		\item {
-			sterowanie prędkościowe silnikami krokowymi
-		}
-		\item {
-			zadawanie odpowiedniej trajektorii prędkości (w celu wyelminowania uderzenia)
-		}
-		\item {
-			sterowanie pozycyjne w pętli zamkniętej ze sprzężeniem od strony enkoderów
-		}
-		\item{
-			ograniczenia na prędkości, przyśpieszenie, położenie
-		}
-		\item{
-			komunikacja z komputerem.
-		}
-	\end{itemize}
+\begin{figure}[h]
+	\centering
+	\includegraphics[height=0.6\textheight]{img/core_agent_firmware_schematics-1.png}
+	\caption{Ideowy schemat połączeniowy.}
+	\label{ros:schemat-elektronika}
+\end{figure}
 \end{frame}
 
 \section{Lista współautorów.}

@@ -1,4 +1,3 @@
-\beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Cel pracy}{3}{0}{1}
 \beamer@sectionintoc {2}{Geneza projektu}{4}{0}{2}
 \beamer@sectionintoc {3}{Wykorzystane narz\IeC {\k e}dzia}{5}{0}{3}
@@ -6,8 +5,5 @@
 \beamer@subsectionintoc {4}{1}{Struktura robota}{7}{0}{4}
 \beamer@subsectionintoc {4}{2}{Proces budowy}{8}{0}{4}
 \beamer@sectionintoc {5}{Elektronika}{12}{0}{5}
-\beamer@sectionintoc {6}{Oprogramowanie niskopoziomowe}{17}{0}{6}
-\beamer@sectionintoc {7}{Oprogramowanie PC}{18}{0}{7}
-\beamer@sectionintoc {8}{Za\IeC {\l }o\IeC {\.z}enia projektu}{19}{0}{8}
-\beamer@sectionintoc {9}{Za\IeC {\l }o\IeC {\.z}enia projektowe}{20}{0}{9}
-\beamer@sectionintoc {10}{Lista wsp\IeC {\'o}\IeC {\l }autor\IeC {\'o}w.}{21}{0}{10}
+\beamer@sectionintoc {6}{Oprogramowanie}{17}{0}{6}
+\beamer@sectionintoc {7}{Lista wsp\IeC {\'o}\IeC {\l }autor\IeC {\'o}w.}{19}{0}{7}
