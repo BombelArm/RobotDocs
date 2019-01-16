@@ -3,303 +3,265 @@
     xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw"
     version="1.1" baseProfile="full">
     <g>
-        <g latexdraw:type="rectangle" id="id263959774">
+        <g latexdraw:type="rectangle" id="id1342279117">
             <rect x="559.3333333333335" y="265.7058823529412"
-                width="172.9019607843137" height="92.11764705882354"
+                width="172.9019607843137" height="332.11764705882365"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="rectangle" id="id1010548503">
-            <rect x="856.6666666666665" y="265.7058823529412"
-                width="172.90196078431404" height="92.11764705882354"
-                latexdraw:borderPos="outer" stroke-width="2.0"
-                stroke="black" fill="none"/>
+        <g latexdraw:type="text" id="id291327105" fill="black" latexdraw:position="bl">
+            <text x="622.5551453908284" y="424.0146942138672">{\huge SPI}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id234486431">
-            <rect x="559.3333333333334" y="505.7058823529412"
-                width="172.90196078431381" height="92.11764705882354"
-                latexdraw:borderPos="outer" stroke-width="2.0"
-                stroke="black" fill="none"/>
-        </g>
-        <g latexdraw:type="text" id="id1530489495" fill="black" latexdraw:position="bl">
-            <text x="622.5551453908284" y="324.0146942138672">{\huge SPI}</text>
-        </g>
-        <g latexdraw:type="text" id="id1243526468" fill="black" latexdraw:position="bl">
-            <text x="921.5145203908282" y="326.5146942138672">{\huge $\mathrm{I^{2}C}$}</text>
-        </g>
-        <g latexdraw:type="text" id="id2123295425" fill="black" latexdraw:position="bl">
-            <text x="616.0509787241617" y="564.0146942138672">{\huge TIM}</text>
-        </g>
-        <g latexdraw:type="rectangle" id="id1426093659">
+        <g latexdraw:type="rectangle" id="id2116001770">
             <rect x="18.64705882352945" y="201.00000000000006"
                 width="259.1764705882354" height="92.11764705882337"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id396349635" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id101190711" fill="black" latexdraw:position="bl">
             <text x="33.48528480529785" y="265.30882263183594">\begin{tabular}{c} {\LARGE Enkoder absolutny} \\  {\LARGE AEAT-6012-A06}  \end{tabular}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id1107025605">
+        <g latexdraw:type="rectangle" id="id82457555">
             <rect x="-81.35294117647055" y="501.0"
                 width="199.17647058823542" height="92.11764705882342"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1899451363" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id748050038" fill="black" latexdraw:position="bl">
             <text x="-87.51470756530762" y="565.308837890625">\begin{tabular}{c} {\LARGE Silnik krokowy} \\  {\LARGE NEMA17}  \end{tabular}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id1856354038">
-            <rect x="218.64705882352928" y="601.0"
-                width="259.1764705882356" height="112.11764705882342"
+        <g latexdraw:type="rectangle" id="id2033683612">
+            <rect x="198.64705882352928" y="501.0"
+                width="239.1764705882356" height="92.11764705882342"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id964015098" fill="black" latexdraw:position="bl">
-            <text x="232.3642795643908" y="679.1869659423828">\begin{tabular}{c} {\LARGE Sterownik silnik\'ow} \\  {\LARGE TB6560}  \end{tabular}</text>
+        <g latexdraw:type="text" id="id999291136" fill="black" latexdraw:position="bl">
+            <text x="212.3642795643908" y="579.1869659423828">\begin{tabular}{c} {\LARGE Sterownik silnik\'ow} \\  {\LARGE TB6560}  \end{tabular}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id2049220644">
-            <rect x="729.3235204360062" y="21.0"
-                width="339.1764705882356" height="92.11764705882342"
-                latexdraw:borderPos="outer" stroke-width="2.0"
-                stroke="black" fill="none"/>
-        </g>
-        <g latexdraw:type="text" id="id686652528" fill="black" latexdraw:position="bl">
-            <text x="749.4117673986099" y="76.30882263183594">{\LARGE Wyświetlacz segmentowy}</text>
-        </g>
-        <g latexdraw:type="rectangle" id="id73524761">
-            <rect x="409.3235204360062" y="21.0"
-                width="299.1764705882356" height="92.11764705882342"
-                latexdraw:borderPos="outer" stroke-width="2.0"
-                stroke="black" fill="none"/>
-        </g>
-        <g latexdraw:type="text" id="id1917661589" fill="black" latexdraw:position="bl">
-            <text x="414.1617736816406" y="76.30882263183594">{\LARGE Enkoder inkrementalny}</text>
-        </g>
-        <g latexdraw:type="joinedLines" id="id2031571179">
+        <g latexdraw:type="joinedLines" id="id1905474763">
             <polyline
                 points="376.4705882352942,305.8823529411765 376.4705882352942,352.9411764705883 282.3529411764706,352.9411764705883 "
                 stroke-width="2.0" stroke="black" fill="none"
-                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-2031571179)"/>
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1905474763)"/>
         </g>
-        <g latexdraw:type="joinedLines" id="id563062666">
+        <g latexdraw:type="joinedLines" id="id1249747326">
             <polyline
                 points="376.4705882352942,352.9411764705883 376.4705882352942,447.0588235294118 282.3529411764706,447.0588235294118 "
                 stroke-width="2.0" stroke="black" fill="none"
-                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-563062666)"/>
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1249747326)"/>
         </g>
-        <g latexdraw:type="joinedLines" id="id2030466062">
+        <g latexdraw:type="joinedLines" id="id177805270">
             <polyline
                 points="564.7058823529412,305.8823529411765 376.4705882352942,305.8823529411765 376.4705882352942,258.82352941176475 282.3529411764706,258.82352941176475 "
                 stroke-width="2.0" stroke="black" fill="none"
                 latexdraw:rotationAngle="0.0"
-                marker-start="url(#arrow0-2030466062)" marker-end="url(#arrow1-2030466062)"/>
+                marker-start="url(#arrow0-177805270)" marker-end="url(#arrow1-177805270)"/>
         </g>
-        <g latexdraw:type="text" id="id634789138" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id292514264" fill="black" latexdraw:position="bl">
             <text x="467.0588235294118" y="325.8823529411765">SPI (1)</text>
         </g>
-        <g latexdraw:type="joinedLines" id="id1874508706">
-            <polyline
-                points="205.88235294117658,638.8235294117648 158.82352941176475,638.8235294117648 158.82352941176475,544.7058823529412 111.76470588235298,544.7058823529412 "
-                stroke-width="2.0" stroke="black" fill="none"
-                stroke-dasharray="8.819444444444445, 5.291666666666667"
-                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1874508706)"/>
-        </g>
-        <g latexdraw:type="joinedLines" id="id1228706638">
-            <polyline
-                points="158.82352941176475,638.8235294117648 158.82352941176475,662.3529411764707 111.76470588235298,662.3529411764707 "
-                stroke-width="2.0" stroke="black" fill="none"
-                stroke-dasharray="8.819444444444445, 5.291666666666667"
-                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1228706638)"/>
-        </g>
-        <g latexdraw:type="joinedLines" id="id1724579437">
-            <polyline
-                points="158.82352941176475,662.3529411764707 158.82352941176475,756.4705882352943 111.76470588235298,756.4705882352943 "
-                stroke-width="2.0" stroke="black" fill="none"
-                stroke-dasharray="8.819444444444445, 5.291666666666667"
-                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1724579437)"/>
-        </g>
-        <g latexdraw:type="joinedLines" id="id1871013172">
-            <polyline
-                points="1001.1764705882355,258.82352941176475 1001.1764705882355,117.64705882352945 "
-                stroke-width="1.5" stroke="black"
-                stroke-dasharray="8.819444444444445, 5.291666666666667"
-                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1871013172)"/>
-        </g>
-        <g latexdraw:type="text" id="id687303776" fill="black" latexdraw:position="bl">
-            <text x="474.1176470588236" y="581.1764705882354">TIM (1)</text>
-        </g>
-        <g latexdraw:type="text" id="id1149652205" fill="black" latexdraw:position="bl">
-            <text x="517.6470588235295" y="631.764705882353">TIM (2)</text>
-        </g>
-        <g latexdraw:type="text" id="id1569971735" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id2124204439" fill="black" latexdraw:position="bl">
             <text x="554.1176452636719" y="219.01470184326172">{\LARGE Mikrokontroler STM32F411RE}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id1226585682">
+        <g latexdraw:type="rectangle" id="id1697186242">
             <rect x="541.9264705882354" y="236.0441176470589"
                 width="536.1470588235295" height="398.5"
                 latexdraw:borderPos="outer" stroke-width="1.5"
                 stroke="black" fill="none" stroke-dasharray="8.819444444444445, 5.291666666666667"/>
         </g>
-        <g latexdraw:type="rectangle" id="id1351540983">
+        <g latexdraw:type="rectangle" id="id364026109">
             <rect x="541.9264705882354" y="188.9852941176471"
                 width="404.38235294117635" height="45.55882352941177"
                 latexdraw:borderPos="outer" stroke-width="1.5"
                 stroke="black" fill="none" stroke-dasharray="8.819444444444445, 5.291666666666667"/>
         </g>
-        <g latexdraw:type="text" id="id1528207073" fill="black" latexdraw:position="bl">
-            <text x="944.7058823529413" y="231.76470588235298">$\mathrm{I^{2}C (1)}$</text>
-        </g>
-        <g latexdraw:type="rectangle" id="id2092452908">
+        <g latexdraw:type="rectangle" id="id552606913">
             <rect x="859.3333333333335" y="505.7058823529412"
                 width="172.90196078431381" height="92.11764705882354"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id196883288" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id170815342" fill="black" latexdraw:position="bl">
             <text x="902.5551453908284" y="564.0146942138672">{\huge UART}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id903595823">
+        <g latexdraw:type="rectangle" id="id714632446">
             <rect x="849.3235204360064" y="681.0"
                 width="219.17647058823536" height="92.11764705882342"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1103300155" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id1922753718" fill="black" latexdraw:position="bl">
             <text x="934.1617736816406" y="736.3088226318359">{\huge PC}</text>
         </g>
-        <g latexdraw:type="joinedLines" id="id709510035">
+        <g latexdraw:type="joinedLines" id="id453806471">
             <polyline
                 points="964.7058823529413,588.2352941176472 964.7058823529413,682.3529411764707 "
                 stroke-width="2.0" stroke="black"
                 latexdraw:rotationAngle="0.0"
-                marker-start="url(#arrow0-709510035)" marker-end="url(#arrow1-709510035)"/>
+                marker-start="url(#arrow0-453806471)" marker-end="url(#arrow1-453806471)"/>
         </g>
-        <g latexdraw:type="text" id="id439350182" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id1818496571" fill="black" latexdraw:position="bl">
             <text x="974.1176470588236" y="661.1764705882354">UART (2)</text>
         </g>
-        <g latexdraw:type="rectangle" id="id1492470856">
-            <rect x="401.92647058823513" y="0.75"
-                width="676.1470588235297" height="139.6764705882353"
-                latexdraw:borderPos="outer" stroke-width="1.5"
-                stroke="black" fill="none" stroke-dasharray="8.819444444444445, 5.291666666666667"/>
-        </g>
-        <g latexdraw:type="rectangle" id="id1420261401">
-            <rect x="401.92647058823513" y="-46.308823529411775"
-                width="384.0322435319863" height="45.558823529411775"
-                latexdraw:borderPos="outer" stroke-width="1.5"
-                stroke="black" fill="none" stroke-dasharray="8.819444444444445, 5.291666666666667"/>
-        </g>
-        <g latexdraw:type="text" id="id1523060264" fill="black" latexdraw:position="bl">
-            <text x="454.1176452636719" y="-0.9852981567382812">{\LARGE Panel operatora}</text>
-        </g>
-        <g latexdraw:type="rectangle" id="id1215366552">
+        <g latexdraw:type="rectangle" id="id324788865">
             <rect x="18.64705882352945" y="301.00000000000006"
                 width="259.1764705882354" height="92.11764705882337"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1833233925" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id1316325614" fill="black" latexdraw:position="bl">
             <text x="33.48528480529785" y="365.30882263183594">\begin{tabular}{c} {\LARGE Enkoder absolutny} \\  {\LARGE AEAT-6012-A06}  \end{tabular}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id1487746571">
+        <g latexdraw:type="rectangle" id="id41296971">
             <rect x="18.64705882352945" y="401.00000000000006"
                 width="259.1764705882354" height="92.11764705882337"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id17236430" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id1687445040" fill="black" latexdraw:position="bl">
             <text x="33.48528480529785" y="465.30882263183594">\begin{tabular}{c} {\LARGE Enkoder absolutny} \\  {\LARGE AEAT-6012-A06}  \end{tabular}</text>
         </g>
-        <g latexdraw:type="joinedLines" id="id953116257">
-            <polyline
-                points="444.4444444444445,111.11111111111113 444.4444444444445,555.5555555555557 555.5555555555557,555.5555555555557 "
-                stroke-width="2.0" stroke="black" fill="none"
-                stroke-dasharray="8.819444444444445, 5.291666666666667"
-                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-953116257)"/>
-        </g>
-        <g latexdraw:type="joinedLines" id="id1074635293">
-            <polyline
-                points="555.5555555555557,600.0000000000001 511.11111111111114,600.0000000000001 511.11111111111114,666.6666666666667 466.6666666666667,666.6666666666667 "
-                stroke-width="2.0" stroke="black" fill="none"
-                stroke-dasharray="8.819444444444445, 5.291666666666667"
-                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1074635293)"/>
-        </g>
-        <g latexdraw:type="rectangle" id="id1140647492">
+        <g latexdraw:type="rectangle" id="id1467185813">
             <rect x="-81.35294117647055" y="601.0"
                 width="199.17647058823542" height="92.11764705882342"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1626524098" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id1167686403" fill="black" latexdraw:position="bl">
             <text x="-87.51470756530762" y="665.308837890625">\begin{tabular}{c} {\LARGE Silnik krokowy} \\  {\LARGE NEMA17}  \end{tabular}</text>
         </g>
-        <g latexdraw:type="rectangle" id="id914118329">
+        <g latexdraw:type="rectangle" id="id158467831">
             <rect x="-81.35294117647055" y="701.0"
                 width="199.17647058823542" height="92.11764705882342"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1286446132" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id692833434" fill="black" latexdraw:position="bl">
             <text x="-87.51470756530762" y="765.308837890625">\begin{tabular}{c} {\LARGE Silnik krokowy} \\  {\LARGE NEMA17}  \end{tabular}</text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id815215354">
+            <polyline
+                points="565.8823529411766,578.8235294117648 518.8235294117648,578.8235294117648 520.0,660.0 440.0,660.0 "
+                stroke-width="2.0" stroke="black" fill="none"
+                stroke-dasharray="8.819444444444445, 5.291666666666667"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-815215354)"/>
+        </g>
+        <g latexdraw:type="text" id="id1261106731" fill="black" latexdraw:position="bl">
+            <text x="487.0588235294118" y="565.8823529411766">SPI (2)</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id317656276">
+            <rect x="198.64705882352928" y="601.0"
+                width="239.1764705882356" height="92.11764705882342"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id620422166" fill="black" latexdraw:position="bl">
+            <text x="212.3642795643908" y="679.1869659423828">\begin{tabular}{c} {\LARGE Sterownik silnik\'ow} \\  {\LARGE TB6560}  \end{tabular}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id1862057339">
+            <rect x="198.64705882352928" y="701.0"
+                width="239.1764705882356" height="92.11764705882342"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1787497798" fill="black" latexdraw:position="bl">
+            <text x="212.3642795643908" y="779.1869659423828">\begin{tabular}{c} {\LARGE Sterownik silnik\'ow} \\  {\LARGE TB6560}  \end{tabular}</text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id1522382912">
+            <polyline
+                points="480.0,700.0 480.0,640.0 480.0,540.0 440.0,540.0 "
+                stroke-width="2.0" stroke="black" fill="none"
+                stroke-dasharray="8.819444444444445, 5.291666666666667"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1522382912)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id1239569735">
+            <polyline
+                points="480.0,700.0 480.0,740.0 480.0,760.0 440.30420733515376,763.3212852136301 "
+                stroke-width="2.0" stroke="black" fill="none"
+                stroke-dasharray="8.819444444444445, 5.291666666666667"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1239569735)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id1837274838">
+            <polyline
+                points="200.0,540.0 160.0,540.0 140.0,540.0 120.0,540.0 "
+                stroke-width="2.0" stroke="black" fill="none"
+                stroke-dasharray="8.819444444444445, 5.291666666666667"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1837274838)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id159768579">
+            <polyline
+                points="200.0,640.0 180.0,640.0 160.0,640.0 120.0,640.0 "
+                stroke-width="2.0" stroke="black" fill="none"
+                stroke-dasharray="8.819444444444445, 5.291666666666667"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-159768579)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id2124005673">
+            <polyline
+                points="200.0,740.0 160.0,740.0 140.0,740.0 120.0,740.0 "
+                stroke-width="2.0" stroke="black" fill="none"
+                stroke-dasharray="8.819444444444445, 5.291666666666667"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-2124005673)"/>
         </g>
     </g>
     <defs>
-        <marker overflow="visible" orient="auto" id="arrow1-2031571179">
+        <marker overflow="visible" orient="auto" id="arrow1-1905474763">
             <path
                 d="M 0.0 0.0 L -16.5 2.75 L -16.5 0.0 L -16.5 -2.75 z "
                 latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
-        <marker overflow="visible" orient="auto" id="arrow1-563062666">
+        <marker overflow="visible" orient="auto" id="arrow1-1249747326">
             <path
                 d="M 0.0 0.0 L -16.5 2.75 L -16.5 0.0 L -16.5 -2.75 z "
                 latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
-        <marker overflow="visible" orient="auto" id="arrow0-2030466062">
+        <marker overflow="visible" orient="auto" id="arrow0-177805270">
             <path d="M 0.0 0.0 L 16.5 2.75 L 16.5 0.0 L 16.5 -2.75 z "
                 latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
-        <marker overflow="visible" orient="auto" id="arrow1-2030466062">
+        <marker overflow="visible" orient="auto" id="arrow1-177805270">
             <path
                 d="M 0.0 0.0 L -16.5 2.75 L -16.5 0.0 L -16.5 -2.75 z "
                 latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
-        <marker overflow="visible" orient="auto" id="arrow1-1874508706">
-            <path
-                d="M 0.0 0.0 L -16.5 2.75 L -16.5 0.0 L -16.5 -2.75 z "
-                latexdraw:arrSizeNum="4.0" fill="black"/>
-        </marker>
-        <marker overflow="visible" orient="auto" id="arrow1-1228706638">
-            <path
-                d="M 0.0 0.0 L -16.5 2.75 L -16.5 0.0 L -16.5 -2.75 z "
-                latexdraw:arrSizeNum="4.0" fill="black"/>
-        </marker>
-        <marker overflow="visible" orient="auto" id="arrow1-1724579437">
-            <path
-                d="M 0.0 0.0 L -16.5 2.75 L -16.5 0.0 L -16.5 -2.75 z "
-                latexdraw:arrSizeNum="4.0" fill="black"/>
-        </marker>
-        <marker overflow="visible" orient="auto" id="arrow1-1871013172">
-            <path d="M 0.0 0.0 L -18.0 3.0 L -18.0 0.0 L -18.0 -3.0 z "
-                latexdraw:arrSizeNum="4.0" fill="black"/>
-        </marker>
-        <marker overflow="visible" orient="auto" id="arrow0-709510035">
+        <marker overflow="visible" orient="auto" id="arrow0-453806471">
             <path d="M 0.0 0.0 L 16.5 2.75 L 16.5 0.0 L 16.5 -2.75 z "
                 latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
-        <marker overflow="visible" orient="auto" id="arrow1-709510035">
+        <marker overflow="visible" orient="auto" id="arrow1-453806471">
             <path
                 d="M 0.0 0.0 L -16.5 2.75 L -16.5 0.0 L -16.5 -2.75 z "
                 latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
-        <marker overflow="visible" orient="auto" id="arrow1-953116257">
+        <marker overflow="visible" orient="auto" id="arrow1-815215354">
             <path
-                d="M 0.0 0.0 L -14.0 1.75 L -14.0 0.0 L -14.0 -1.75 z "
-                latexdraw:arrSizeNum="2.0" fill="black"/>
+                d="M 0.0 0.0 L -16.5 2.75 L -16.5 0.0 L -16.5 -2.75 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
-        <marker overflow="visible" orient="auto" id="arrow1-1074635293">
+        <marker overflow="visible" orient="auto" id="arrow1-1522382912">
             <path
-                d="M 0.0 0.0 L -14.0 1.75 L -14.0 0.0 L -14.0 -1.75 z "
-                latexdraw:arrSizeNum="2.0" fill="black"/>
+                d="M 0.0 0.0 L -16.5 2.75 L -16.5 0.0 L -16.5 -2.75 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-1239569735">
+            <path
+                d="M 0.0 0.0 L -16.5 2.75 L -16.5 0.0 L -16.5 -2.75 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-1837274838">
+            <path
+                d="M 0.0 0.0 L -16.5 2.75 L -16.5 0.0 L -16.5 -2.75 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-159768579">
+            <path
+                d="M 0.0 0.0 L -16.5 2.75 L -16.5 0.0 L -16.5 -2.75 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-2124005673">
+            <path
+                d="M 0.0 0.0 L -16.5 2.75 L -16.5 0.0 L -16.5 -2.75 z "
+                latexdraw:arrSizeNum="4.0" fill="black"/>
         </marker>
     </defs>
     <metadata>
